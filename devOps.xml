@@ -1,0 +1,27 @@
+<!--  
+  A. What is Shell Scripting and why is it important?
+   - A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter.
+  
+  B. Write a script to modify the XML file test.xml with the following instructions.
+    ● initial XML
+
+    <appender name="http" class="io">
+    <minLevel>WARN</minLevel>
+    <filter class="cjr”> </filter>
+    </appender>
+
+    ●target XML
+
+    <appender name="http" class=“com”>
+    <minLevel>WARN</minLevel>
+    <filter class=“hsk”>
+    <level>ERROR</level>
+    </filter>
+    </appender> -->
+ 
+
+
+<appender name="http" class="io">
+<minLevel>WARN</minLevel>
+<filter class="cjr”> </filter>
+</appender>
